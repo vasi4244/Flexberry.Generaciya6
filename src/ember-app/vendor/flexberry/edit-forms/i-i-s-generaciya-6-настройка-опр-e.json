@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Опрос",
+      "projection": "ОпросL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Настройка опр",
+  "name": "IISGeneraciya_6НастройкаОпрE",
+  "className": "НастройкаОпрE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-generaciya-6-настройка-опр",
+      "modelProjection": "НастройкаОпрE"
+    }
+  ]
+}

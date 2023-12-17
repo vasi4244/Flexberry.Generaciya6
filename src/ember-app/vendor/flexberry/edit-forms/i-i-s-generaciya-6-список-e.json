@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "опрос",
+      "displayAttributeName": "название",
+      "required": true,
+      "relationName": "Анкетирование.Опрос",
+      "projection": "ОпросL",
+      "detailModelName": "i-i-s-generaciya-6-анкетирование"
+    }
+  ],
+  "external": false,
+  "caption": "Список",
+  "name": "IISGeneraciya_6СписокE",
+  "className": "СписокE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-generaciya-6-список",
+      "modelProjection": "СписокE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-generaciya-6-сотрудники-e",
+  "editForm": "i-i-s-generaciya-6-сотрудники-e",
+  "external": false,
+  "caption": "Сотрудники",
+  "name": "IISGeneraciya_6СотрудникиL",
+  "className": "СотрудникиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-generaciya-6-сотрудники",
+      "modelProjection": "СотрудникиL"
+    }
+  ]
+}

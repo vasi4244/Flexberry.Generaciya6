@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-generaciya-6-настройка-опр-e",
+  "editForm": "i-i-s-generaciya-6-настройка-опр-e",
+  "external": false,
+  "caption": "Настройка опр",
+  "name": "IISGeneraciya_6НастройкаОпрL",
+  "className": "НастройкаОпрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-generaciya-6-настройка-опр",
+      "modelProjection": "НастройкаОпрL"
+    }
+  ]
+}

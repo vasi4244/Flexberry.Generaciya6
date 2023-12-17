@@ -1,0 +1,93 @@
+﻿{
+  "name": "IISGeneraciya_6содержание",
+  "modelName": "i-i-s-generaciya-6-содержание",
+  "className": "содержание",
+  "nameSpace": "IIS.Generaciya_6",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "в1",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "в2",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "в3",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "вопрос",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "настройкаОпр",
+      "relatedTo": "i-i-s-generaciya-6-настройка-опр",
+      "inverse": "содержание"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "содержаниеE",
+      "modelName": "i-i-s-generaciya-6-содержание",
+      "attrs": [
+        {
+          "name": "вопрос",
+          "caption": "Вопрос",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "в1",
+          "caption": "В1",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "в2",
+          "caption": "В2",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "в3",
+          "caption": "В3",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISGeneraciya_6Анкетирование",
+  "modelName": "i-i-s-generaciya-6-анкетирование",
+  "className": "Анкетирование",
+  "nameSpace": "IIS.Generaciya_6",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "опрос",
+      "relatedTo": "i-i-s-generaciya-6-опрос",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "список",
+      "relatedTo": "i-i-s-generaciya-6-список",
+      "inverse": "анкетирование"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "АнкетированиеE",
+      "modelName": "i-i-s-generaciya-6-анкетирование",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "название",
+          "lookupValueField": "название",
+          "relationName": "Опрос",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "название",
+              "caption": "Название",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Опрос",
+          "name": "опрос",
+          "relatedTo": "i-i-s-generaciya-6-опрос",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

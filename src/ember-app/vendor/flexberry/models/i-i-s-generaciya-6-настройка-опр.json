@@ -1,0 +1,96 @@
+﻿{
+  "name": "IISGeneraciya_6НастройкаОпр",
+  "modelName": "i-i-s-generaciya-6-настройка-опр",
+  "className": "НастройкаОпр",
+  "nameSpace": "IIS.Generaciya_6",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "опрос",
+      "relatedTo": "i-i-s-generaciya-6-опрос",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "содержание",
+      "relatedTo": "i-i-s-generaciya-6-содержание",
+      "inverse": "настройкаОпр"
+    }
+  ],
+  "projections": [
+    {
+      "name": "НастройкаОпрE",
+      "modelName": "i-i-s-generaciya-6-настройка-опр",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "название",
+          "lookupValueField": "название",
+          "relationName": "Опрос",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "название",
+              "caption": "Название",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Опрос",
+          "name": "опрос",
+          "relatedTo": "i-i-s-generaciya-6-опрос",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "содержаниеE",
+          "caption": "Содержание",
+          "name": "содержание",
+          "relatedTo": "i-i-s-generaciya-6-содержание",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "НастройкаОпрL",
+      "modelName": "i-i-s-generaciya-6-настройка-опр",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Опрос",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "название",
+              "caption": "Название",
+              "hidden": false,
+              "index": 0
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Название",
+          "name": "опрос",
+          "relatedTo": "i-i-s-generaciya-6-опрос",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

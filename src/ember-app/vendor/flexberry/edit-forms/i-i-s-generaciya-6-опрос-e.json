@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Опрос",
+  "name": "IISGeneraciya_6ОпросE",
+  "className": "ОпросE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-generaciya-6-опрос",
+      "modelProjection": "ОпросE"
+    }
+  ]
+}

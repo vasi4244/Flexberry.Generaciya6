@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-generaciya-6-список-e",
+  "editForm": "i-i-s-generaciya-6-список-e",
+  "external": false,
+  "caption": "Список",
+  "name": "IISGeneraciya_6СписокL",
+  "className": "СписокL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-generaciya-6-список",
+      "modelProjection": "СписокL"
+    }
+  ]
+}

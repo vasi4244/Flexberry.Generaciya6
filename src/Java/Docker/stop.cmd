@@ -1,0 +1,1 @@
+docker-compose -p generaciya_6-java down

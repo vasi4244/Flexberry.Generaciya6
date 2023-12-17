@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Список",
+      "projection": "СписокL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Сотрудники",
+  "name": "IISGeneraciya_6СотрудникиE",
+  "className": "СотрудникиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-generaciya-6-сотрудники",
+      "modelProjection": "СотрудникиE"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+﻿{
+  "name": "IISGeneraciya_6Список",
+  "modelName": "i-i-s-generaciya-6-список",
+  "className": "Список",
+  "nameSpace": "IIS.Generaciya_6",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "анкетирование",
+      "relatedTo": "i-i-s-generaciya-6-анкетирование",
+      "inverse": "список"
+    }
+  ],
+  "projections": [
+    {
+      "name": "СписокE",
+      "modelName": "i-i-s-generaciya-6-список",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "АнкетированиеE",
+          "caption": "Анкетирование",
+          "name": "анкетирование",
+          "relatedTo": "i-i-s-generaciya-6-анкетирование",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "СписокL",
+      "modelName": "i-i-s-generaciya-6-список",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

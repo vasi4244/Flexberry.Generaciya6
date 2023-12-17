@@ -1,0 +1,43 @@
+﻿{
+  "applicationCaption": "Generaciya_6",
+  "applicationTitle": "Generaciya_6",
+  "items": [
+    {
+      "link": null,
+      "menuName": "generaciya-6",
+      "caption": "Generaciya_6",
+      "title": "Generaciya_6",
+      "children": [
+        {
+          "link": "i-i-s-generaciya-6-опрос-l",
+          "menuName": null,
+          "caption": "Опрос",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-generaciya-6-настройка-опр-l",
+          "menuName": null,
+          "caption": "Настройка опр",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-generaciya-6-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-generaciya-6-список-l",
+          "menuName": null,
+          "caption": "Список",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

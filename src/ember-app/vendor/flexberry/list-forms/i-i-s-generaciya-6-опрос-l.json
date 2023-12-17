@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-generaciya-6-опрос-e",
+  "editForm": "i-i-s-generaciya-6-опрос-e",
+  "external": false,
+  "caption": "Опрос",
+  "name": "IISGeneraciya_6ОпросL",
+  "className": "ОпросL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-generaciya-6-опрос",
+      "modelProjection": "ОпросL"
+    }
+  ]
+}
